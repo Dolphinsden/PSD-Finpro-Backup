@@ -1,0 +1,12 @@
+Place your downloaded shareware DOOM1.WAD (~4,196,020 bytes) in this folder
+named exactly:
+
+    DOOM1.WAD
+
+You can download the official freeware/shareware DOOM1.WAD (v1.9) from:
+  - https://distro.ibiblio.org/slitaz/sources/packages/d/doom1.wad
+  - https://archive.org/details/DoomsharewareEpisode
+
+Once DOOM1.WAD is here, run:
+    python scripts/setup_doom_sources.py
+    vitis -s scripts/build_vitis.py
